@@ -7,10 +7,13 @@ High customer engagement is the focus for the company to grow. The company aims 
 
 *Question to Answer*
 How can the company maximize the profit for the next marketing campaign?
-- Segment customers by customer behavior
-- Create a predictive model focused on profit
+
 
 **Data Resource**
 The data provided came from Kaggle and iFood's CRM Data Analyst Case. 
 
 **Results**
+
+Clean the two data sets to include only data that is relevant to the analysis. 
+
+Take random samples to create the testing sample.
