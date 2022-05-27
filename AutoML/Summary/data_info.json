@@ -1,0 +1,35 @@
+{
+    "columns": [
+        "Education",
+        "Income",
+        "Kidhome",
+        "Teenhome",
+        "Dt_Customer",
+        "Recency"
+    ],
+    "rows": 1653,
+    "cols": 6,
+    "target_is_numeric": true,
+    "columns_info": {
+        "Education": [
+            "scale"
+        ],
+        "Income": [
+            "scale"
+        ],
+        "Kidhome": [],
+        "Teenhome": [
+            "scale"
+        ],
+        "Dt_Customer": [
+            "scale"
+        ],
+        "Recency": [
+            "scale"
+        ]
+    },
+    "target_info": [],
+    "n_features": 6,
+    "is_sample_weighted": false,
+    "n_classes": 2
+}
