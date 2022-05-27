@@ -13,8 +13,6 @@
 ### AutoML Performance
 ![AutoML Performance](ldb_performance.png)
 
-### AutoML Performance Boxplot
-![AutoML Performance Boxplot](ldb_performance_boxplot.png)
 
 ### Features Importance
 ![features importance across models](features_heatmap.png)
@@ -23,4 +21,3 @@
 
 ### Spearman Correlation of Models
 ![models spearman correlation](correlation_heatmap.png)
-
