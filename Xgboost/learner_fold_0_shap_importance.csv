@@ -1,0 +1,7 @@
+feature,shap_importance
+Income,0.67071027
+Recency,0.4297275
+Dt_Customer,0.32804486
+Teenhome,0.12899326
+Education,0.11260678
+Kidhome,0.0854372
