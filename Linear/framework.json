@@ -1,0 +1,147 @@
+{
+    "uid": "74cd02e1-c482-41ea-914f-e3efaca1c126",
+    "name": "3_Linear",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        1.134630541896463,
+                        20796.74629096751,
+                        0.5388423273654205,
+                        0.5640740013613039,
+                        28.916591807645162
+                    ],
+                    "mean": [
+                        2.347861178369653,
+                        51912.899112187246,
+                        0.4979822437449556,
+                        8.403551251008878,
+                        49.49717514124294
+                    ],
+                    "var": [
+                        1.2873864666042614,
+                        432504656.2908709,
+                        0.290351053760583,
+                        0.31817947901175225,
+                        836.1692817699712
+                    ],
+                    "n_samples_seen": 1239,
+                    "n_features_in": 5,
+                    "columns": [
+                        "Education",
+                        "Income",
+                        "Teenhome",
+                        "Dt_Customer",
+                        "Recency"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Education": [
+                        "scale_normal"
+                    ],
+                    "Income": [
+                        "scale_normal"
+                    ],
+                    "Teenhome": [
+                        "scale_normal"
+                    ],
+                    "Dt_Customer": [
+                        "scale_normal"
+                    ],
+                    "Recency": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.0.2",
+            "algorithm_name": "Logistic Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "de2c80f0-35c7-43b5-a018-3c95513631c7",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "Education": [
+                    "scale_normal"
+                ],
+                "Income": [
+                    "scale_normal"
+                ],
+                "Teenhome": [
+                    "scale_normal"
+                ],
+                "Dt_Customer": [
+                    "scale_normal"
+                ],
+                "Recency": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_1/X.data",
+            "y_path": "AutoML_1/y.data",
+            "results_path": "AutoML_1"
+        },
+        "learner": {
+            "model_type": "Linear",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "3_Linear",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "3_Linear/learner_fold_0.linear"
+    ],
+    "predictions_fname": "3_Linear/predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.5471926995921396,
+    "train_time": 3.250347137451172,
+    "is_stacked": false,
+    "threshold": 0.4623831666163638
+}
