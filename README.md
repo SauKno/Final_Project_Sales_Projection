@@ -41,9 +41,11 @@ Training and testing data sets was split up using a 75/25 approach because there
 
 *Explanation of Model Choice*
 supervised.AutoML provides you with 6 models to test and then determines which model is the best one for you to use. Before applying the code i had to save teh demographic columns as a dataframe and the campaign response column as a series so that AutoML could run the report. (*I originally saved both as dataframes and got errors for the results.*) 
+
 <img width="464" alt="image" src="https://user-images.githubusercontent.com/94129215/171459405-f273160d-2d63-4e2f-9469-5aac0d1e7b0d.png">
 
-According to the data training, the Ensemble model would be the best model to use. I went on to use the test data for predictions and the strongest model continued to be the Ensemble with an accuracy score of 75%, auc= .7(1 is perfect), f1 = .84 (1 is perfect True-Positive Rate), 
+According to the data training, the Ensemble model would be the best model to use. I went on to use the test data for predictions and the strongest model continued to be the Ensemble with an accuracy score of 75%, auc= .7(1 is perfect), f1 = .84 (1 is perfect True-Positive Rate) 
+
 <img width="438" alt="image" src="https://user-images.githubusercontent.com/94129215/171460825-184c0b88-6a69-4c05-8aed-b1d5c28363ec.png">
 
 <img width="347" alt="image" src="https://user-images.githubusercontent.com/94129215/171460607-01806807-037d-4617-ab91-2200e10cc1b1.png">
