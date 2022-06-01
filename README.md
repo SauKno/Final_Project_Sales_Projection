@@ -44,20 +44,18 @@ supervised.AutoML provides you with 6 models to test and then determines which m
 
 <img width="464" alt="image" src="https://user-images.githubusercontent.com/94129215/171459405-f273160d-2d63-4e2f-9469-5aac0d1e7b0d.png">
 
-According to the data training, the Ensemble model would be the best model to use. I went on to use the test data for predictions and the strongest model continued to be the Ensemble with an accuracy score of 75%, auc= .7(1 is perfect), f1 = .84 (1 is perfect True-Positive Rate) 
+According to the data training, the Ensemble model would be the best model to use. I went on to use the test data for predictions and the strongest model continued to be the Ensemble with an accuracy score of 76%, auc= .69(1 is perfect), f1 = .85 (1 is perfect True-Positive Rate) 
 
 <img width="438" alt="image" src="https://user-images.githubusercontent.com/94129215/171460825-184c0b88-6a69-4c05-8aed-b1d5c28363ec.png">
 
 <img width="347" alt="image" src="https://user-images.githubusercontent.com/94129215/171460607-01806807-037d-4617-ab91-2200e10cc1b1.png">
 
 *Confusion Matrix*
-<img width="272" alt="image" src="https://user-images.githubusercontent.com/94129215/171465173-96f88741-e63a-4cbc-af9a-ea1a878ad92b.png">
 
-<img width="490" alt="image" src="https://user-images.githubusercontent.com/94129215/171465019-a1690b7b-ef9c-4e6a-80d3-d30112998aa9.png">
-
-<img width="466" alt="image" src="https://user-images.githubusercontent.com/94129215/171465069-c2e96f25-16b6-4023-9ad9-055528ffa4a1.png">
+<img width="257" alt="image" src="https://user-images.githubusercontent.com/94129215/171487212-23b3ea75-00f2-4fc7-a6b6-3f24929b0275.png">
 
 *Importance Ranking*
+
 <img width="359" alt="image" src="https://user-images.githubusercontent.com/94129215/171467369-f4b7e192-5f4a-4c2e-a4a2-f99634584e36.png">
 
 
