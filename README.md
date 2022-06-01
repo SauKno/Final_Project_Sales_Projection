@@ -61,4 +61,6 @@ According to the data training, the Ensemble model would be the best model to us
 Following the document produced at the end of the code is the website I would create to have the interactive dashboard. This is an newer tool and there is not an easy way to do this, therefore the interactive document at the end of the code is the dashboard sample. The document walks you through the machine learning process and provides insights on the dataset for future campaigns to rely on.
 
 # Challenges
-AutoML does not have a easy conversion to 54rrrrrr5
+1. AutoML does not have a easy way to export the results into a dashboard that is commonly used. This is a common complaint and they are working on a solution. 
+
+2. I would have liked to have had enough time to use the other data to create a predictive model to show how they could create profiles of their customers that are based on their use of the app versus demographics.
