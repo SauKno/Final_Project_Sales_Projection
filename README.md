@@ -1,5 +1,7 @@
 # ifood Campaign Data Analysis
 
+## [Presentation](https://docs.google.com/presentation/d/1FrSdsQ_8S31_rZG6wvbdS690fjM748q_Gyv2PScib5I/edit?usp=sharing)
+
 ## Selected Topic
 ifood is a food delivery service that is based in Brazil. They are looking to utilize data from their last 6 campaigns to drive instruction on how to optimize their future campaigns.
 
